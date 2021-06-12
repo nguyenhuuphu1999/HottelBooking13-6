@@ -1,0 +1,28 @@
+.infoApartment{
+    .image{
+        .ant-row{
+            .parent1{
+                
+               img{
+                padding: 5px;
+                border-radius: 10px 0px 0px 10px;
+               }
+            }
+            .parent2{
+                .ant-row{
+                    .ant-col{
+                        padding: 5px;
+                        .children2{
+                            border-radius: 0px 10px 0px 0px;
+                        }
+
+                        .children4{
+                            border-radius: 0px 0px 10px 0px;
+                        }
+                       
+                    }
+                }
+            }
+        }
+    }
+}

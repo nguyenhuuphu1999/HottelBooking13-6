@@ -1,0 +1,21 @@
+.service{
+    .icon{
+        font-size: 30px;
+    }
+    .serviceIcon{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        position: absolute;
+        top: 12px;
+        left: 11px;
+    }
+    .titleService{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .contentService{
+        font-size: 16px;
+        color: rgb(113, 113, 113) !important;
+    }
+}

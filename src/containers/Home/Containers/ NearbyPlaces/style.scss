@@ -1,0 +1,27 @@
+
+.nearByPlance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  padding: 10px 0px;
+  img {
+    width: 80px;
+    border-radius: 10px;
+  }
+  .text {
+    padding: 10px 20px;
+
+    .title {
+        font-size: 20px;
+        font-weight: 600 !important;
+    }
+  }
+}
+
+@media only screen and (max-width:680px){
+    h1.nearByPlanceRoot {
+        font-size: 20px;
+        font-weight: 700 !important;
+      }
+}

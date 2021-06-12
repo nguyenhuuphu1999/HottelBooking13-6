@@ -1,0 +1,15 @@
+.WhereNearItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        width: 400px;
+        border-radius: 7px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}

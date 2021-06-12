@@ -1,0 +1,23 @@
+.ExploringExperience{
+    width: 100%;
+   
+    img{
+        width: 95%;
+        border-radius: 7px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            padding-top: 10px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 18px;
+            width: 95%;
+        }
+    }
+  }

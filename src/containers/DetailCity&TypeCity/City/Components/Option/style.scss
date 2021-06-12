@@ -1,0 +1,30 @@
+.rootOption{
+
+    .option{
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+     
+        button{
+            padding: 20px 30px;
+            border-radius: 20px;
+            align-items: center;
+            display: flex;
+            border: 1px solid #6E6E6E;
+            font-size: 18px;
+        }
+        button:active{
+         border: 3px solid #6E6E6E;
+        }
+        
+     }
+     .vote{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         margin: 20px 0px;
+         font-size: 17px;
+         border-bottom: 1px solid #6E6E6E;
+     }
+
+}

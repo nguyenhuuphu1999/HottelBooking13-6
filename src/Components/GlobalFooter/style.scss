@@ -1,0 +1,45 @@
+.certificate {
+  width: 50%;
+  margin: auto;
+
+  .ant-row {
+    .ant-col {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+      }
+    }
+  }
+
+  
+}
+.optionFooter{
+  background-color: #F7F7F7 !important;
+  width: 100%;
+
+  .item{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 30%;
+    padding:10px 20px;
+  }
+}
+
+@media only screen and (max-width: 680px){
+  .option{
+    background-color: #F7F7F7 !important;
+    width: 100%;
+  
+    .item{
+      display: block;
+      font-size: 16px;
+      justify-content: space-between;
+      width: 100%;
+      padding:10px 20px;
+    }
+  }
+}

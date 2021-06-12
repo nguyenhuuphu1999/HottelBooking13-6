@@ -1,0 +1,35 @@
+.menuIconProfile {
+  font-size: 53px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}
+
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 680px) {
+  .menuIconProfile {
+    font-size: 53px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

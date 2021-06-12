@@ -1,0 +1,49 @@
+.beautifulNature{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    margin: auto;
+   
+    picture{
+        width: 100%;
+        margin: auto;
+       
+        img{
+            height: 100%;
+            width: 100%;
+            margin: auto; 
+            border-radius: 7px;      
+        }
+    }
+
+    .beautifulNatureContent{
+        position: absolute;
+        width: 40%;
+        z-index: 100;
+        top: 0;
+        left: 5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .beautifulNatureContentTitle{
+            color:rgb(34, 34, 34);
+            font-size: 48px !important;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        button{
+            background-color: rgb(72, 72, 72) !important;
+            color: white;
+            padding: 30px;
+            display:flex;
+            align-items: center;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+    }
+}
