@@ -5,7 +5,7 @@ import { GiNuclear } from 'react-icons/gi';
 import { BiWifi } from 'react-icons/bi';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import './style.scss'
-
+import LandlordForRent from '../LandlordForRent/index'
 const index = () => {
     const data=[
         {
@@ -32,7 +32,7 @@ const index = () => {
   return (
     <div>
       <Row>
-        <Col lg={18}>
+        <Col lg={24}>
           <div>
             <div>
                 <div>
@@ -67,9 +67,14 @@ const index = () => {
                    }
                 </Row>
             </div>
+            <div className="hr">
+              <hr width="100%"/>
+            </div>
+            <div>
+                   <LandlordForRent/>
+            </div>
           </div>
         </Col>
-        <Col lg={6}></Col>
       </Row>
     </div>
   );

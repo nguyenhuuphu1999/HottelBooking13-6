@@ -1,0 +1,55 @@
+.infoRoot{
+    .infoForRent{
+        h1.name{
+            font-weight: 600;
+            margin: 0;
+        }
+    
+        .active{
+            font-size: 17px;
+        }
+    
+        img{
+            height: 75px;
+            width: 75px;
+            border-radius: 35px;
+    
+        }
+        .btnContactForRent{
+            line-height: 16px;
+            cursor: pointer !important;
+            display: inline-block !important;
+            margin: 0px !important;
+            position: relative !important;
+            text-align: center !important;
+            text-decoration: none !important;
+            width: auto !important;
+            touch-action: manipulation !important;
+            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+            font-size: 16px !important;
+            line-height: 20px !important;
+            font-weight: 600 !important;
+            border-radius: 8px !important;
+            border-width: 1px !important;
+            border-style: solid !important;
+            outline: none !important;
+            padding: 13px 23px !important;
+            transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s !important;
+            border-color: rgb(34, 34, 34) !important;
+            background: rgb(255, 255, 255) !important;
+            color: rgb(34, 34, 34) !important;
+            min-height: 50px;
+        }
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        padding-right: 19px;
+        h2{
+            padding-top: 10px;
+           
+            font-size: 19px;
+            font-weight: 600;
+        }
+    }
+}

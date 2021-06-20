@@ -1,4 +1,17 @@
 .infoApartment{
+    .infoApartment{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+
+        .child2{
+            padding: 0 25px;
+        }
+        .child3{
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
     .image{
         .ant-row{
             .parent1{

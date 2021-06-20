@@ -1,0 +1,72 @@
+.booking_root{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+
+    .info_booking{
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
+    }
+
+    .title_booking{
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+        border-bottom: 1px solid black;
+        padding: 10px 0px;
+
+       
+    }
+
+    .date_booking{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+        .date{
+            display: flex;
+            justify-content: center;
+            border: 1px solid #d9d9d9;
+
+            .ant-picker{
+                border: none;
+                
+                .ant-picker-input{
+                    margin-left: 30px;
+                }
+
+                span.ant-picker-clear{
+                    display: none;
+                }
+
+                span.ant-picker-suffix{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .btn_booking{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid black;
+        padding: 20px 0px;
+        button {
+            font-weight: 600;
+            font-size: 20px;
+            width: 300px;
+            height: 45px;
+        }
+        button:hover {
+            color:darkblue;
+            font-weight: 600;
+            font-size: 20px;
+            width: 300px;
+            height: 45px;
+        }
+    }
+}

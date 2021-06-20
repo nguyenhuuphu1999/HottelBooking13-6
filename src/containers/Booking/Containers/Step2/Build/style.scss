@@ -1,0 +1,46 @@
+.step2Root{
+    border: 1px solid black;
+    width: 100%;
+    .titlePayment{
+        padding: 10px;
+        border-bottom: 1px solid black ;
+        .titlePayment1{
+            font-size: 18px;
+            font-weight: 600;
+            color: #5392f9;
+        }
+    }
+
+    .payment{
+      .ant-collapse{
+        width: 100%;
+        .ant-collapse-item-active{
+            color: #5392f9;
+            font-weight: 600;
+        }
+       
+       }
+    
+       .contentPayment{
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           line-height: 50px;
+           font-size: 20px;
+           color: #5392f9;
+
+           .ant-select-selector{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+       }
+    }
+
+    button{
+        width: 131px;
+        height: 44px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
